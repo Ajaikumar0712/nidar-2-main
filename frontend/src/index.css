@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Dark theme by default for professional monitoring dashboard */
+    --background: 220 26% 8%;
+    --foreground: 210 20% 98%;
+
+    --card: 220 24% 12%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 26% 10%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 189 94% 43%;
+    --primary-foreground: 220 26% 8%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 220 20% 16%;
+    --muted-foreground: 215 15% 60%;
+
+    --accent: 189 94% 43%;
+    --accent-foreground: 220 26% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 18%;
+    --ring: 189 94% 43%;
+
+    --radius: 0.75rem;
+
+    /* Drone-specific colors */
+    --drone-scan: 210 98% 58%;
+    --drone-scan-foreground: 220 26% 8%;
+    --drone-spray: 142 76% 36%;
+    --drone-spray-foreground: 220 26% 8%;
+
+    /* Status colors */
+    --status-success: 142 76% 36%;
+    --status-warning: 38 92% 50%;
+    --status-error: 0 84% 60%;
+    --status-active: 189 94% 43%;
+
+    /* Gradients */
+    --gradient-scan: linear-gradient(135deg, hsl(210 98% 58%), hsl(189 94% 43%));
+    --gradient-spray: linear-gradient(135deg, hsl(142 76% 36%), hsl(120 60% 50%));
+    --gradient-alert: linear-gradient(135deg, hsl(0 84% 60%), hsl(15 90% 55%));
+
+    /* Shadows and effects */
+    --shadow-glow-scan: 0 0 20px hsl(210 98% 58% / 0.3);
+    --shadow-glow-spray: 0 0 20px hsl(142 76% 36% / 0.3);
+    --shadow-glow-alert: 0 0 20px hsl(0 84% 60% / 0.4);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Leaflet map styles */
+  .leaflet-container {
+    @apply rounded-lg;
+  }
+}
+
+@layer utilities {
+  .glow-scan {
+    box-shadow: var(--shadow-glow-scan);
+  }
+  
+  .glow-spray {
+    box-shadow: var(--shadow-glow-spray);
+  }
+  
+  .glow-alert {
+    box-shadow: var(--shadow-glow-alert);
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
