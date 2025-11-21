@@ -1,0 +1,4 @@
+[console_scripts]
+img2gps_node = model_inference.img2gps_node:main
+model_inference_node = model_inference.model_inference_node:main
+

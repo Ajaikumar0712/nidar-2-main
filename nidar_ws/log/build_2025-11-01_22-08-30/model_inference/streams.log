@@ -1,0 +1,27 @@
+[0.791s] Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference': AMENT_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/model_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/build --no-deps symlink_data
+[1.055s] running develop
+[1.228s] running egg_info
+[1.228s] creating model_inference.egg-info
+[1.228s] writing model_inference.egg-info/PKG-INFO
+[1.228s] writing dependency_links to model_inference.egg-info/dependency_links.txt
+[1.229s] writing entry points to model_inference.egg-info/entry_points.txt
+[1.229s] writing requirements to model_inference.egg-info/requires.txt
+[1.229s] writing top-level names to model_inference.egg-info/top_level.txt
+[1.229s] writing manifest file 'model_inference.egg-info/SOURCES.txt'
+[1.231s] reading manifest file 'model_inference.egg-info/SOURCES.txt'
+[1.231s] writing manifest file 'model_inference.egg-info/SOURCES.txt'
+[1.233s] running build_ext
+[1.233s] Creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages/model-inference.egg-link (link to .)
+[1.234s] Installing img2gps_node script to /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/model_inference
+[1.234s] Installing model_inference_node script to /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/model_inference
+[1.234s] 
+[1.234s] Installed /home/ajaikumar/nidar-2/nidar_ws/build/model_inference
+[1.234s] running symlink_data
+[1.234s] creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/ament_index
+[1.234s] creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/ament_index/resource_index
+[1.234s] creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/ament_index/resource_index/packages
+[1.234s] symbolically linking /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/resource/model_inference -> /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/ament_index/resource_index/packages
+[1.234s] symbolically linking /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/package.xml -> /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference
+[1.235s] creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/models
+[1.235s] symbolically linking /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/models/best.pt -> /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/models
+[1.260s] Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference' returned '0': AMENT_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/model_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/build --no-deps symlink_data

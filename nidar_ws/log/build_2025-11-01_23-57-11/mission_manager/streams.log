@@ -1,0 +1,20 @@
+[0.766s] Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager': AMENT_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces LD_LIBRARY_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/build --no-deps symlink_data
+[1.085s] running develop
+[1.287s] running egg_info
+[1.287s] writing mission_manager.egg-info/PKG-INFO
+[1.287s] writing dependency_links to mission_manager.egg-info/dependency_links.txt
+[1.287s] writing entry points to mission_manager.egg-info/entry_points.txt
+[1.287s] writing requirements to mission_manager.egg-info/requires.txt
+[1.287s] writing top-level names to mission_manager.egg-info/top_level.txt
+[1.288s] reading manifest file 'mission_manager.egg-info/SOURCES.txt'
+[1.289s] writing manifest file 'mission_manager.egg-info/SOURCES.txt'
+[1.291s] running build_ext
+[1.291s] Creating /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages/mission-manager.egg-link (link to .)
+[1.292s] Installing data_config_services script to /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/mission_manager
+[1.292s] Installing lawnmower_planner script to /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/mission_manager
+[1.292s] Installing scout_mission_manager script to /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/mission_manager
+[1.292s] Installing scout_path_generator script to /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/mission_manager
+[1.292s] 
+[1.293s] Installed /home/ajaikumar/nidar-2/nidar_ws/build/mission_manager
+[1.293s] running symlink_data
+[1.327s] Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager' returned '0': AMENT_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces LD_LIBRARY_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/build --no-deps symlink_data

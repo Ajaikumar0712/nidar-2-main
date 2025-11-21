@@ -1,0 +1,18 @@
+[0.696s] Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference': AMENT_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/model_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/build --no-deps symlink_data
+[1.025s] running develop
+[1.300s] running egg_info
+[1.300s] writing model_inference.egg-info/PKG-INFO
+[1.301s] writing dependency_links to model_inference.egg-info/dependency_links.txt
+[1.301s] writing entry points to model_inference.egg-info/entry_points.txt
+[1.301s] writing requirements to model_inference.egg-info/requires.txt
+[1.301s] writing top-level names to model_inference.egg-info/top_level.txt
+[1.304s] reading manifest file 'model_inference.egg-info/SOURCES.txt'
+[1.305s] writing manifest file 'model_inference.egg-info/SOURCES.txt'
+[1.307s] running build_ext
+[1.307s] Creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages/model-inference.egg-link (link to .)
+[1.309s] Installing img2gps_node script to /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/model_inference
+[1.309s] Installing model_inference_node script to /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/model_inference
+[1.309s] 
+[1.309s] Installed /home/ajaikumar/nidar-2/nidar_ws/build/model_inference
+[1.311s] running symlink_data
+[1.385s] Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference' returned '0': AMENT_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/model_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/build --no-deps symlink_data

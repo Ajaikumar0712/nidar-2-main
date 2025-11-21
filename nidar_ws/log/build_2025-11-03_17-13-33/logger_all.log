@@ -1,0 +1,346 @@
+[0.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.130s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7165909732e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x716590ab0520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x716590ab0520>>)
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.362s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ajaikumar/nidar-2/nidar_ws'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mission_interfaces' with type 'ros.ament_cmake' and name 'mission_interfaces'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_manager) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_manager) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_manager) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_manager) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_manager) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_manager) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_manager) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_manager) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mission_manager' with type 'ros.ament_python' and name 'mission_manager'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/model_inference) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/model_inference) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/model_inference) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/model_inference) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/model_inference) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/model_inference) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/model_inference) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/model_inference) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/model_inference) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'src/model_inference' with type 'ros.ament_python' and name 'model_inference'
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.419s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ajaikumar/nidar-2/nidar_ws/install
+[0.420s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ajaikumar/ros2_ws/install
+[0.421s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 301 installed packages in /opt/ros/humble
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'custom_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs', 'merge_install': False, 'path': '/home/ajaikumar/nidar-2/nidar_ws/src/custom_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'mission_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'mission_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'mission_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'mission_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'mission_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'mission_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'mission_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'mission_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'mission_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'mission_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajaikumar/nidar-2/nidar_ws/build/mission_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces', 'merge_install': False, 'path': '/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mission_manager' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mission_manager' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mission_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mission_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mission_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mission_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mission_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mission_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mission_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'mission_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager', 'merge_install': False, 'path': '/home/ajaikumar/nidar-2/nidar_ws/src/mission_manager', 'symlink_install': True, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'model_inference' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'model_inference' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'model_inference' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'model_inference' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'model_inference' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'model_inference' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'model_inference' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'model_inference' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'model_inference' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'model_inference' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference', 'merge_install': False, 'path': '/home/ajaikumar/nidar-2/nidar_ws/src/model_inference', 'symlink_install': True, 'test_result_base': None}
+[0.456s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.457s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajaikumar/nidar-2/nidar_ws/src/custom_msgs' with build type 'ament_cmake'
+[0.458s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajaikumar/nidar-2/nidar_ws/src/custom_msgs'
+[0.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces' with build type 'ament_cmake'
+[0.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces'
+[0.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager:/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs -- -j12 -l12
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager:/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/ajaikumar/nidar-2/nidar_ws/build/mission_interfaces -- -j12 -l12
+[0.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager:/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/ajaikumar/nidar-2/nidar_ws/build/mission_interfaces -- -j12 -l12
+[0.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager:/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/ajaikumar/nidar-2/nidar_ws/build/mission_interfaces
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager:/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs -- -j12 -l12
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager:/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs
+[0.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[0.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager:/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs' for CMake module files
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs' for CMake config files
+[0.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib'
+[0.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages'
+[0.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'pythonpath')
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/pythonpath.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/pythonpath.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/pythonpath.sh'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/bin'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.sh'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.bash'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.zsh'
+[0.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[0.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs' for CMake module files
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs' for CMake config files
+[0.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib'
+[0.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/bin'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages'
+[0.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'pythonpath')
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/pythonpath.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/pythonpath.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/hook/pythonpath.sh'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/bin'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.sh'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.bash'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.zsh'
+[0.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[0.996s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajaikumar/nidar-2/nidar_ws/src/model_inference' with build type 'ament_python'
+[0.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('model_inference', 'ament_prefix_path')
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/hook/ament_prefix_path.ps1'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/hook/ament_prefix_path.dsv'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/hook/ament_prefix_path.sh'
+[0.998s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.998s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mission_interfaces)
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces' for CMake module files
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager:/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/ajaikumar/nidar-2/nidar_ws/build/mission_interfaces
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces' for CMake config files
+[1.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_interfaces', 'cmake_prefix_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/cmake_prefix_path.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/cmake_prefix_path.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/cmake_prefix_path.sh'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib'
+[1.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_interfaces', 'ld_library_path_lib')
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/ld_library_path_lib.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/ld_library_path_lib.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/ld_library_path_lib.sh'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/bin'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/pkgconfig/mission_interfaces.pc'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages'
+[1.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_interfaces', 'pythonpath')
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/pythonpath.ps1'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/pythonpath.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/pythonpath.sh'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/bin'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.dsv'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.sh'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.bash'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.zsh'
+[1.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/colcon-core/packages/mission_interfaces)
+[1.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mission_interfaces)
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces' for CMake module files
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces' for CMake config files
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_interfaces', 'cmake_prefix_path')
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/cmake_prefix_path.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/cmake_prefix_path.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/cmake_prefix_path.sh'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib'
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_interfaces', 'ld_library_path_lib')
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/ld_library_path_lib.ps1'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/ld_library_path_lib.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/ld_library_path_lib.sh'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/bin'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/pkgconfig/mission_interfaces.pc'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages'
+[1.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_interfaces', 'pythonpath')
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/pythonpath.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/pythonpath.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/hook/pythonpath.sh'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/bin'
+[1.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.ps1'
+[1.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.dsv'
+[1.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.sh'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.bash'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/mission_interfaces/package.zsh'
+[1.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/share/colcon-core/packages/mission_interfaces)
+[1.021s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajaikumar/nidar-2/nidar_ws/src/mission_manager' with build type 'ament_python'
+[1.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_manager', 'ament_prefix_path')
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/hook/ament_prefix_path.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/hook/ament_prefix_path.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/hook/ament_prefix_path.sh'
+[1.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.326s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajaikumar/nidar-2/nidar_ws/src/model_inference'
+[1.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.612s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajaikumar/nidar-2/nidar_ws/src/mission_manager'
+[1.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager': PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:/home/ajaikumar/ros2_ws/build/my_robot_controller:/home/ajaikumar/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/build --no-deps symlink_data
+[2.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference': CMAKE_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces LD_LIBRARY_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/model_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages:/home/ajaikumar/ros2_ws/build/my_robot_controller:/home/ajaikumar/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/build --no-deps symlink_data
+[2.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('model_inference', 'pythonpath_develop')
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference/share/model_inference/hook/pythonpath_develop.ps1'
+[2.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference' returned '0': CMAKE_PREFIX_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces LD_LIBRARY_PATH=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/model_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages:/home/ajaikumar/ros2_ws/build/my_robot_controller:/home/ajaikumar/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/build --no-deps symlink_data
+[2.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference/share/model_inference/hook/pythonpath_develop.dsv'
+[2.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/build/model_inference/share/model_inference/hook/pythonpath_develop.sh'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference' for CMake module files
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference' for CMake config files
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/bin'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/pkgconfig/model_inference.pc'
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages'
+[2.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('model_inference', 'pythonpath')
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/hook/pythonpath.ps1'
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/hook/pythonpath.dsv'
+[2.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/hook/pythonpath.sh'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/bin'
+[2.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(model_inference)
+[2.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/package.ps1'
+[2.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/package.dsv'
+[2.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/package.sh'
+[2.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/package.bash'
+[2.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/package.zsh'
+[2.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/colcon-core/packages/model_inference)
+[2.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_manager', 'pythonpath_develop')
+[2.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/share/mission_manager/hook/pythonpath_develop.ps1'
+[2.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager' returned '0': PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:/home/ajaikumar/ros2_ws/build/my_robot_controller:/home/ajaikumar/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/build --no-deps symlink_data
+[2.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/share/mission_manager/hook/pythonpath_develop.dsv'
+[2.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/share/mission_manager/hook/pythonpath_develop.sh'
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager' for CMake module files
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager' for CMake config files
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/bin'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/pkgconfig/mission_manager.pc'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages'
+[2.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_manager', 'pythonpath')
+[2.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/hook/pythonpath.ps1'
+[2.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/hook/pythonpath.dsv'
+[2.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/hook/pythonpath.sh'
+[2.604s] Level 1:colcon.colcon_core.environment:checking '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/bin'
+[2.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mission_manager)
+[2.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/package.ps1'
+[2.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/package.dsv'
+[2.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/package.sh'
+[2.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/package.bash'
+[2.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/mission_manager/package.zsh'
+[2.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/share/colcon-core/packages/mission_manager)
+[2.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.607s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.607s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.607s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.614s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.614s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.614s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.635s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajaikumar/nidar-2/nidar_ws/install/local_setup.ps1'
+[2.637s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajaikumar/nidar-2/nidar_ws/install/_local_setup_util_ps1.py'
+[2.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajaikumar/nidar-2/nidar_ws/install/setup.ps1'
+[2.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajaikumar/nidar-2/nidar_ws/install/local_setup.sh'
+[2.642s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajaikumar/nidar-2/nidar_ws/install/_local_setup_util_sh.py'
+[2.642s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajaikumar/nidar-2/nidar_ws/install/setup.sh'
+[2.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajaikumar/nidar-2/nidar_ws/install/local_setup.bash'
+[2.644s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajaikumar/nidar-2/nidar_ws/install/setup.bash'
+[2.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajaikumar/nidar-2/nidar_ws/install/local_setup.zsh'
+[2.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajaikumar/nidar-2/nidar_ws/install/setup.zsh'

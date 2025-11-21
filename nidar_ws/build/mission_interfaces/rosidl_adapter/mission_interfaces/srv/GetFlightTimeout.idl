@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mission_interfaces/srv/GetFlightTimeout.srv
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module srv {
+    struct GetFlightTimeout_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetFlightTimeout_Response {
+      int32 timeout;
+
+      string message;
+
+      boolean success;
+    };
+  };
+};

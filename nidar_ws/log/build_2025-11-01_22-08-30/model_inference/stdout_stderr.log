@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating model_inference.egg-info
+writing model_inference.egg-info/PKG-INFO
+writing dependency_links to model_inference.egg-info/dependency_links.txt
+writing entry points to model_inference.egg-info/entry_points.txt
+writing requirements to model_inference.egg-info/requires.txt
+writing top-level names to model_inference.egg-info/top_level.txt
+writing manifest file 'model_inference.egg-info/SOURCES.txt'
+reading manifest file 'model_inference.egg-info/SOURCES.txt'
+writing manifest file 'model_inference.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages/model-inference.egg-link (link to .)
+Installing img2gps_node script to /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/model_inference
+Installing model_inference_node script to /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/model_inference
+
+Installed /home/ajaikumar/nidar-2/nidar_ws/build/model_inference
+running symlink_data
+creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/ament_index
+creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/ament_index/resource_index
+creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/ament_index/resource_index/packages
+symbolically linking /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/resource/model_inference -> /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/ament_index/resource_index/packages
+symbolically linking /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/package.xml -> /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference
+creating /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/models
+symbolically linking /home/ajaikumar/nidar-2/nidar_ws/build/model_inference/models/best.pt -> /home/ajaikumar/nidar-2/nidar_ws/install/model_inference/share/model_inference/models

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/ScoutActionTrigger.action
+// generated code does not contain a copyright notice
+
+#include "geographic_msgs/msg/GeoPoint.idl"
+
+module mission_interfaces {
+  module action {
+    struct ScoutActionTrigger_Goal {
+      sequence<geographic_msgs::msg::GeoPoint> waypoints;
+    };
+    struct ScoutActionTrigger_Result {
+      string success;
+    };
+    struct ScoutActionTrigger_Feedback {
+      geographic_msgs::msg::GeoPoint current_location;
+    };
+  };
+};

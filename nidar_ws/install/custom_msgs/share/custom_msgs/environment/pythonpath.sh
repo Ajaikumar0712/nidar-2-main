@@ -1,0 +1,1 @@
+/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs/ament_cmake_environment_hooks/pythonpath.sh

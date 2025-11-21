@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/DeliveryActionTrigger.action
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module action {
+    struct DeliveryActionTrigger_Goal {
+      double latitude;
+
+      double longitude;
+
+      double altitude;
+    };
+    struct DeliveryActionTrigger_Result {
+      double success;
+    };
+    struct DeliveryActionTrigger_Feedback {
+      double current_lat;
+
+      double current_lon;
+
+      double current_alt;
+    };
+  };
+};

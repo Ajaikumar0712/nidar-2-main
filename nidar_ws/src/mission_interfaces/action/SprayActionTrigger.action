@@ -1,0 +1,21 @@
+float64 latitude
+float64 longitude
+float64 altitude
+
+# Spray parameters
+float32 spray_rate   # ml per second (approx)
+float32 spray_volume # total volume to spray in ml (0 = until stopped)
+float64 area_radius  # meters radius of area to spray (0 = point spray)
+bool hold_position   # if true, hover and spray; if false, perform mowing-style sweep
+string pattern       # optional pattern name (e.g., "spiral", "grid")
+---
+# Result
+float64 success      # 1.0 = success, 0.0 = failure
+float32 sprayed_volume
+string message       # optional status or error message
+---
+# Feedback while spraying
+float64 current_lat
+float64 current_lon
+float64 current_alt
+float32 sprayed_percent

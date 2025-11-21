@@ -1,0 +1,14 @@
+{
+  "package_name": "mission_interfaces",
+  "non_idl_tuples": [
+    "/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces:srv/GetLawnmowerPath.srv",
+    "/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces:srv/SetComConfig.srv",
+    "/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces:srv/GetComConfig.srv",
+    "/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces:srv/SetDroneConfig.srv",
+    "/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces:srv/GetDroneConfig.srv",
+    "/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces:srv/SetFlightTimeout.srv",
+    "/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces:srv/GetFlightTimeout.srv",
+    "/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces:action/ScoutActionTrigger.action",
+    "/home/ajaikumar/nidar-2/nidar_ws/src/mission_interfaces:action/SprayActionTrigger.action"
+  ]
+}

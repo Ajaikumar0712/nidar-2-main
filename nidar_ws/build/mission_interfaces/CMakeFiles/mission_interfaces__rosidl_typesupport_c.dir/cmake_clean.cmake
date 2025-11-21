@@ -1,0 +1,36 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/scout_action_trigger__type_support.cpp.o"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/scout_action_trigger__type_support.cpp.o.d"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/spray_action_trigger__type_support.cpp.o"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/spray_action_trigger__type_support.cpp.o.d"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/get_com_config__type_support.cpp.o"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/get_com_config__type_support.cpp.o.d"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/get_drone_config__type_support.cpp.o"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/get_drone_config__type_support.cpp.o.d"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/get_flight_timeout__type_support.cpp.o"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/get_flight_timeout__type_support.cpp.o.d"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/get_lawnmower_path__type_support.cpp.o"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/get_lawnmower_path__type_support.cpp.o.d"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/set_com_config__type_support.cpp.o"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/set_com_config__type_support.cpp.o.d"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/set_drone_config__type_support.cpp.o"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/set_drone_config__type_support.cpp.o.d"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/set_flight_timeout__type_support.cpp.o"
+  "CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/set_flight_timeout__type_support.cpp.o.d"
+  "libmission_interfaces__rosidl_typesupport_c.pdb"
+  "libmission_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/mission_interfaces/action/scout_action_trigger__type_support.cpp"
+  "rosidl_typesupport_c/mission_interfaces/action/spray_action_trigger__type_support.cpp"
+  "rosidl_typesupport_c/mission_interfaces/srv/get_com_config__type_support.cpp"
+  "rosidl_typesupport_c/mission_interfaces/srv/get_drone_config__type_support.cpp"
+  "rosidl_typesupport_c/mission_interfaces/srv/get_flight_timeout__type_support.cpp"
+  "rosidl_typesupport_c/mission_interfaces/srv/get_lawnmower_path__type_support.cpp"
+  "rosidl_typesupport_c/mission_interfaces/srv/set_com_config__type_support.cpp"
+  "rosidl_typesupport_c/mission_interfaces/srv/set_drone_config__type_support.cpp"
+  "rosidl_typesupport_c/mission_interfaces/srv/set_flight_timeout__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

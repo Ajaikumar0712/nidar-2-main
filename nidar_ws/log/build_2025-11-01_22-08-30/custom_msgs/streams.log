@@ -1,0 +1,230 @@
+[0.013s] Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake /home/ajaikumar/nidar-2/nidar_ws/src/custom_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.191s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.287s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.287s] -- Detecting C compile features
+[0.288s] -- Detecting C compile features - done
+[0.291s] -- Detecting CXX compiler ABI info
+[0.385s] -- Detecting CXX compiler ABI info - done
+[0.391s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.391s] -- Detecting CXX compile features
+[0.392s] -- Detecting CXX compile features - done
+[0.396s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.524s] -- Found Python3: /home/ajaikumar/.local/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.584s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.622s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.659s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.664s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.671s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.758s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.860s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.077s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.500s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.690s] -- Found PythonInterp: /home/ajaikumar/.local/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.691s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.712s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.713s] -- Using PYTHON_EXECUTABLE: /home/ajaikumar/.local/bin/python3
+[1.713s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.713s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.728s] -- Found PythonExtra: .so  
+[1.797s] -- Added test 'lint_cmake' to check CMake code style
+[1.799s] -- Added test 'xmllint' to check XML markup files
+[1.809s] -- Configuring done
+[1.850s] -- Generating done
+[1.860s] -- Build files have been written to: /home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs
+[1.870s] Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake /home/ajaikumar/nidar-2/nidar_ws/src/custom_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs
+[1.872s] Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs -- -j12 -l12
+[1.913s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.926s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.933s] [  5%] Built target ament_cmake_python_symlink_custom_msgs
+[2.193s] running egg_info
+[2.194s] creating custom_msgs.egg-info
+[2.194s] writing custom_msgs.egg-info/PKG-INFO
+[2.194s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[2.195s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[2.195s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[2.201s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[2.201s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[2.245s] [ 10%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/geotagged_image__functions.c.o[0m
+[2.245s] [ 10%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/victim_detection__functions.c.o[0m
+[2.245s] [ 10%] Built target ament_cmake_python_build_custom_msgs_egg
+[2.251s] [ 10%] Built target custom_msgs__cpp
+[2.262s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.262s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.264s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.320s] [ 20%] [32m[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so[0m
+[2.359s] [ 20%] Built target custom_msgs__rosidl_generator_c
+[2.372s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.372s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.373s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.562s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/victim_detection__type_support.cpp.o[0m
+[2.564s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/geotagged_image__type_support.cpp.o[0m
+[2.585s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/geotagged_image__type_support.cpp.o[0m
+[2.588s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/victim_detection__type_support.cpp.o[0m
+[2.601s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/victim_detection__type_support.cpp.o[0m
+[2.601s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/geotagged_image__type_support.cpp.o[0m
+[2.676s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/geotagged_image__type_support.cpp.o[0m
+[2.676s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/victim_detection__type_support.cpp.o[0m
+[2.721s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/victim_detection__type_support_c.cpp.o[0m
+[2.722s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/geotagged_image__type_support_c.cpp.o[0m
+[2.745s] [ 56%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so[0m
+[2.777s] [ 58%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/victim_detection__type_support.c.o[0m
+[2.777s] [ 61%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/geotagged_image__type_support.c.o[0m
+[2.832s] [ 61%] Built target custom_msgs__rosidl_typesupport_c
+[2.857s] [ 64%] [32m[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.922s] [ 64%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[3.025s] [ 66%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so[0m
+[3.095s] [ 66%] Built target custom_msgs__rosidl_typesupport_cpp
+[3.140s] [ 69%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.204s] [ 71%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.209s] [ 71%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[3.214s] [ 74%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.283s] [ 74%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[3.290s] [ 74%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[3.311s] [ 74%] Built target custom_msgs
+[3.340s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.751s] [ 76%] Built target custom_msgs__py
+[3.771s] [ 79%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_geotagged_image_s.c.o[0m
+[3.774s] [ 82%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_victim_detection_s.c.o[0m
+[3.908s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so[0m
+[3.968s] [ 84%] Built target custom_msgs__rosidl_generator_py
+[3.996s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.996s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.996s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.153s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.153s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.159s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.211s] [100%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.212s] [100%] Built target custom_msgs__rosidl_typesupport_c__pyext
+[4.224s] [100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext
+[4.250s] Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --build /home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs -- -j12 -l12
+[4.265s] Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs
+[4.271s] -- Install configuration: ""
+[4.273s] -- Execute custom install script
+[4.273s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+[4.288s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__functions.h
+[4.302s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__struct.h
+[4.314s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__type_support.h
+[4.326s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__functions.h
+[4.338s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__struct.h
+[4.352s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__type_support.h
+[4.369s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/geotagged_image.h
+[4.396s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.410s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/victim_detection.h
+[4.424s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/environment/library_path.sh
+[4.439s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/environment/library_path.dsv
+[4.457s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__rosidl_typesupport_fastrtps_c.h
+[4.481s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__rosidl_typesupport_fastrtps_c.h
+[4.497s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.512s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__builder.hpp
+[4.539s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__struct.hpp
+[4.564s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__traits.hpp
+[4.583s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__type_support.hpp
+[4.606s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__builder.hpp
+[4.623s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__struct.hpp
+[4.647s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__traits.hpp
+[4.675s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__type_support.hpp
+[4.705s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/geotagged_image.hpp
+[4.722s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.742s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/victim_detection.hpp
+[4.757s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__rosidl_typesupport_fastrtps_cpp.hpp
+[4.773s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[4.787s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.802s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__rosidl_typesupport_introspection_c.h
+[4.816s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__rosidl_typesupport_introspection_c.h
+[4.831s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.860s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/geotagged_image__rosidl_typesupport_introspection_cpp.hpp
+[4.874s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/victim_detection__rosidl_typesupport_introspection_cpp.hpp
+[4.890s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh
+[4.910s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv
+[4.921s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.936s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.954s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.970s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.006s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/__init__.py
+[5.028s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c
+[5.049s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.088s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.104s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.119s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.135s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.164s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so
+[5.191s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/msg/__init__.py
+[5.218s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/msg/_geotagged_image.py
+[5.242s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/msg/_geotagged_image_s.c
+[5.262s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/msg/_victim_detection.py
+[5.273s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/msg/_victim_detection_s.c
+[5.296s] -- Up-to-date symlink: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.296s] -- Up-to-date symlink: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.296s] -- Up-to-date symlink: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.297s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/msg/GeotaggedImage.idl
+[5.314s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/msg/VictimDetection.idl
+[5.333s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/msg/GeotaggedImage.msg
+[5.348s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/msg/VictimDetection.msg
+[5.365s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs
+[5.384s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs
+[5.401s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh
+[5.426s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv
+[5.449s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/environment/path.sh
+[5.491s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/environment/path.dsv
+[5.507s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/local_setup.bash
+[5.525s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/local_setup.sh
+[5.537s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/local_setup.zsh
+[5.554s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/local_setup.dsv
+[5.571s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.dsv
+[5.596s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs
+[5.615s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake
+[5.638s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.670s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.701s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.732s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.765s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.794s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.809s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[5.835s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[5.849s] -- Symlinking: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/package.xml
+[5.864s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so
+[5.871s] -- Set runtime path of "/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""
+[5.871s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so
+[5.873s] -- Set runtime path of "/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.878s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.878s] -- Set runtime path of "/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.880s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so
+[5.880s] -- Set runtime path of "/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.880s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so
+[5.881s] -- Set runtime path of "/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""
+[5.881s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so
+[5.884s] -- Set runtime path of "/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.884s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so
+[5.884s] -- Set runtime path of "/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""
+[5.980s] Listing '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs'...
+[5.980s] Compiling '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/__init__.py'...
+[5.980s] Listing '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/msg'...
+[5.980s] Compiling '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/msg/__init__.py'...
+[5.980s] Compiling '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/msg/_geotagged_image.py'...
+[5.980s] Compiling '/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages/custom_msgs/msg/_victim_detection.py'...
+[6.000s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so
+[6.001s] -- Set runtime path of "/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""
+[6.004s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake
+[6.004s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.004s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.004s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.004s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake
+[6.004s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.004s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.004s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.004s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.008s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake
+[6.008s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.008s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.009s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.009s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake
+[6.011s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.014s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake
+[6.014s] -- Installing: /home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.022s] Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ajaikumar/ros2_ws/install/my_robot_controller:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.local) /usr/bin/cmake --install /home/ajaikumar/nidar-2/nidar_ws/build/custom_msgs

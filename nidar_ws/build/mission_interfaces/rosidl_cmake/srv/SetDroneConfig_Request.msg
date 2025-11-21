@@ -1,0 +1,2 @@
+string delivery_topic
+string scout_topic

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mission_interfaces/srv/GetDroneConfig.srv
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module srv {
+    struct GetDroneConfig_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetDroneConfig_Response {
+      string delivery_topic;
+
+      string scout_topic;
+
+      string message;
+
+      boolean success;
+    };
+  };
+};

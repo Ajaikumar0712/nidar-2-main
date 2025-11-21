@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mission_interfaces/srv/SetFlightTimeout.srv
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module srv {
+    struct SetFlightTimeout_Request {
+      int64 timeout;
+    };
+    struct SetFlightTimeout_Response {
+      string message;
+
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+model_inference/__init__.py
+model_inference/img2gps_node.py
+model_inference/model_inference_node.py
+model_inference.egg-info/PKG-INFO
+model_inference.egg-info/SOURCES.txt
+model_inference.egg-info/dependency_links.txt
+model_inference.egg-info/entry_points.txt
+model_inference.egg-info/requires.txt
+model_inference.egg-info/top_level.txt
+model_inference.egg-info/zip-safe
+model_inference/utils/__init__.py
+model_inference/utils/img_coords.py
+models/best.pt
+resource/model_inference

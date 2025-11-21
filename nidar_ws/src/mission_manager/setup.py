@@ -1,0 +1,29 @@
+from setuptools import find_packages, setup
+
+package_name = 'mission_manager'
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=find_packages(exclude=['test']),
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+    ],
+    install_requires=['setuptools'],
+    zip_safe=True,
+    maintainer='thamil',
+    maintainer_email='tamilselvan1709@gmail.com',
+    description='TODO: Package description',
+    license='TODO: License declaration',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            'lawnmower_planner = mission_manager.scout_path_generator:main',
+            'data_config_services = mission_manager.DataConfigServices:main',
+            'scout_path_generator = mission_manager.scout_path_generator:main',
+            'scout_mission_manager = mission_manager.ScoutMissionManager:main',
+        ],
+    },
+)

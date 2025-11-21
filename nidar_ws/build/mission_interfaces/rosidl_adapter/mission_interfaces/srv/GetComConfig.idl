@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mission_interfaces/srv/GetComConfig.srv
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module srv {
+    struct GetComConfig_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetComConfig_Response {
+      string ros_ip;
+
+      string ros_port;
+
+      string scout_video_port;
+
+      string scout_video_ip;
+
+      string delivery_video_port;
+
+      string delivery_video_ip;
+
+      string message;
+
+      boolean success;
+    };
+  };
+};

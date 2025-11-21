@@ -1,0 +1,20 @@
+[1.011s] Invoking command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager': PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:/home/ajaikumar/ros2_ws/build/my_robot_controller:/home/ajaikumar/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/build --no-deps symlink_data
+[1.285s] running develop
+[1.476s] running egg_info
+[1.476s] writing mission_manager.egg-info/PKG-INFO
+[1.476s] writing dependency_links to mission_manager.egg-info/dependency_links.txt
+[1.476s] writing entry points to mission_manager.egg-info/entry_points.txt
+[1.476s] writing requirements to mission_manager.egg-info/requires.txt
+[1.476s] writing top-level names to mission_manager.egg-info/top_level.txt
+[1.479s] reading manifest file 'mission_manager.egg-info/SOURCES.txt'
+[1.479s] writing manifest file 'mission_manager.egg-info/SOURCES.txt'
+[1.481s] running build_ext
+[1.481s] Creating /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages/mission-manager.egg-link (link to .)
+[1.482s] Installing data_config_services script to /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/mission_manager
+[1.482s] Installing lawnmower_planner script to /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/mission_manager
+[1.482s] Installing scout_mission_manager script to /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/mission_manager
+[1.483s] Installing scout_path_generator script to /home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/mission_manager
+[1.483s] 
+[1.483s] Installed /home/ajaikumar/nidar-2/nidar_ws/build/mission_manager
+[1.483s] running symlink_data
+[1.516s] Invoked command in '/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager' returned '0': PYTHONPATH=/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/mission_interfaces/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/model_inference:/home/ajaikumar/nidar-2/nidar_ws/install/model_inference/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/build/mission_manager:/home/ajaikumar/nidar-2/nidar_ws/install/mission_manager/lib/python3.10/site-packages:/home/ajaikumar/nidar-2/nidar_ws/install/custom_msgs/lib/python3.10/site-packages:/home/ajaikumar/ros2_ws/build/my_robot_controller:/home/ajaikumar/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(.local) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ajaikumar/nidar-2/nidar_ws/build/mission_manager/build --no-deps symlink_data

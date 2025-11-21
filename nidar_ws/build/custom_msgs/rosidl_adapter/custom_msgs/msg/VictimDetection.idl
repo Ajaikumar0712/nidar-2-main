@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/VictimDetection.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+#include "sensor_msgs/msg/RegionOfInterest.idl"
+
+module custom_msgs {
+  module msg {
+    struct VictimDetection {
+      sensor_msgs::msg::Image cropped_image;
+
+      double latitude;
+
+      double longitude;
+
+      float confidence;
+
+      string detection_id;
+
+      sensor_msgs::msg::RegionOfInterest bounding_box;
+    };
+  };
+};

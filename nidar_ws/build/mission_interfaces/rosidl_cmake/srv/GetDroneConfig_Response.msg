@@ -1,0 +1,5 @@
+
+string delivery_topic
+string scout_topic
+string message
+bool success

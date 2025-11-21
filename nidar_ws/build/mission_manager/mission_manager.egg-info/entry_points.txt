@@ -1,0 +1,6 @@
+[console_scripts]
+data_config_services = mission_manager.DataConfigServices:main
+lawnmower_planner = mission_manager.scout_path_generator:main
+scout_mission_manager = mission_manager.ScoutMissionManager:main
+scout_path_generator = mission_manager.scout_path_generator:main
+
